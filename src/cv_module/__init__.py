@@ -1,5 +1,5 @@
 """Computer Vision Module - Board detection and piece classification."""
-from .board_detection import BoardDetector
-from .piece_classifier import PieceClassifier
+from cv_module.board_detection import BoardDetector
+from cv_module.cnn_classifier import PieceClassifier
 
 __all__ = ['BoardDetector', 'PieceClassifier']

@@ -1,6 +1,6 @@
 """Evaluation Engine Module - Position evaluation with modular features."""
-from .evaluator import PositionEvaluator, EvaluationResult
-from .features import (
+from evaluation_engine.evaluator import PositionEvaluator, EvaluationResult
+from evaluation_engine.features import (
     FeatureEvaluator,
     MaterialBalance,
     Mobility,
@@ -9,7 +9,7 @@ from .features import (
     CenterControl,
     PieceSquareTables
 )
-from .weights import EvaluationWeights
+from evaluation_engine.weights import EvaluationWeights
 
 __all__ = [
     'PositionEvaluator',

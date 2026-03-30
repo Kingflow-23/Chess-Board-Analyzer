@@ -2,11 +2,6 @@
 from dataclasses import dataclass
 from typing import List, Dict
 import chess
-import sys
-import os
-
-# Add parent to path for imports
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from evaluation_engine import PositionEvaluator, EvaluationResult
 
