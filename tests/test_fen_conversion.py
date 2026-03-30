@@ -1,10 +1,6 @@
 """Unit tests for FEN conversion module."""
 
-import sys
-import os
 import numpy as np
-
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 
 import chess
 from position_module import FENConverter
