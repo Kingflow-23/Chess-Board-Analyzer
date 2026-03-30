@@ -43,7 +43,8 @@ def test_empty_board():
     print(f"✓ test_empty_board:")
     print(f"  Generated: {result.fen}")
     print(f"  Valid: {result.is_valid}")
-    assert "88888888/88888888/88888888/88888888/88888888/88888888/88888888/88888888" in result.fen
+    # Empty board is 8/8/8/8/8/8/8/8
+    assert "8/8/8/8/8/8/8/8" in result.fen
 
 
 def test_fen_to_board_matrix():
